@@ -27,7 +27,6 @@ C_FLAGS += -mfloat-abi=hard -mfpu=fpv4-sp-d16
 C_FLAGS += -I./CMSIS/Device/ST/STM32F4xx/Include/
 C_FLAGS += -I./CMSIS/Include/
 C_FLAGS += -I.
-C_FLAGS += -I../reg_gen/
 C_FLAGS += -DSTM32F40_41xxx
 C_FLAGS += -DSYSCLK_MHZ=168
 #C_FLAGS += -DMACRO_REGS
